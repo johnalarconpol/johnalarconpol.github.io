@@ -9,56 +9,86 @@
 </head>
 <body>
 
+  <!-- Header -->
   <header class="bg-dark text-white text-center py-5">
-    <h1>John Alarcón</h1>
-    <p class="lead">Analista de datos | Visualización</p>
+    <div class="container">
+      <h1 class="display-4 fw-bold">John Alarcón</h1>
+      <p class="lead">Analista de Datos | Python | Visualización</p>
+      <div class="mt-4">
+        <a href="#proyectos" class="btn btn-primary btn-lg mx-2">Ver proyectos</a>
+        <a href="CV.pdf" class="btn btn-outline-light btn-lg mx-2" target="_blank">Descargar CV</a>
+      </div>
+    </div>
   </header>
 
   <main class="container py-5">
-    <section id="proyectos">
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="mb-5">
+      <h2 class="mb-3">Sobre mí</h2>
+      <p>
+        Soy analista de datos con experiencia en <b>Python</b>, <b>Pandas</b>, <b>Power BI</b> y
+        <b>visualización de información</b>. Me apasiona extraer conocimiento de los datos y
+        transformar información en <b>insights accionables</b>. He trabajado en proyectos de
+        <i>web scraping</i>, análisis de mercado laboral y tableros interactivos.
+      </p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="mb-5">
       <h2 class="mb-4">Proyectos destacados</h2>
 
       <div class="row g-4">
+        <!-- Proyecto 1 -->
         <div class="col-md-4">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow-sm border-0">
             <div class="card-body">
               <h5 class="card-title">Scraper de empleo</h5>
-              <p class="card-text">Extracción de ofertas.</p>
-              <a href="https://github.com//johnalarconp/scraper-empleo" class="btn btn-primary" target="_blank">Ver proyecto</a>
+              <p class="card-text">Extracción de ofertas laborales con Python y análisis en Pandas.</p>
+              <a href="https://github.com/johnalarconpol/project_offers_jobs" class="btn btn-primary btn-sm" target="_blank">GitHub</a>
+              <a href="https://johnalarconpol.github.io/project_offers_jobs" class="btn btn-outline-secondary btn-sm" target="_blank">Demo</a>
             </div>
           </div>
         </div>
 
+        <!-- Proyecto 2 -->
         <div class="col-md-4">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow-sm border-0">
             <div class="card-body">
-              <h5 class="card-title">Dashboard Visas</h5>
-              <p class="card-text">Dashboard en Power BI sobre visas internacionales.</p>
-              <a href="https://github.com/tuUsuario/dashboard-visas" class="btn btn-primary" target="_blank">Ver proyecto</a>
+              <h5 class="card-title">Dashboard de Apartamentos Bogotá</h5>
+              <p class="card-text">Tablero interactivo en Power BI sobre análisis de precios de arriendo en Bogotá.</p>
+              <a href="https://github.com/johnalarconpol/Project_apartments_Bogota_env2" class="btn btn-primary btn-sm" target="_blank">GitHub</a>
+              <a href="https://johnalarconpol.github.io/Project_apartments_Bogota_env2" class="btn btn-outline-secondary btn-sm" target="_blank">Demo</a>
             </div>
           </div>
         </div>
 
+        <!-- Proyecto 3 -->
         <div class="col-md-4">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow-sm border-0">
             <div class="card-body">
               <h5 class="card-title">Regresión salarial</h5>
-              <p class="card-text">Análisis y predicción de sueldos con Python.</p>
-              <a href="https://github.com/tuUsuario/regresion-salarial" class="btn btn-primary" target="_blank">Ver proyecto</a>
+              <p class="card-text">Modelo predictivo de sueldos con Python, scikit-learn y regresión lineal.</p>
+              <a href="https://github.com/tuUsuario/regresion-salarial" class="btn btn-primary btn-sm" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contacto" class="mt-5">
-      <h2>Contacto</h2>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/johnalarconpol/">linkedin.com/in/johnalarconpol</a><br>
-         Email: <a href="mailto:johnp96.ja@gmail.com">johnp96.ja@gmail.com</a></p>
+    <!-- Contacto -->
+    <section id="contacto" class="text-center">
+      <h2 class="mb-3">Contacto</h2>
+      <p>
+        📧 <a href="mailto:johnp96.ja@gmail.com">johnp96.ja@gmail.com</a> <br>
+        💼 <a href="https://www.linkedin.com/in/johnalarconpol/" target="_blank">LinkedIn</a> | 
+        🐙 <a href="https://github.com/johnalarconpol" target="_blank">GitHub</a>
+      </p>
     </section>
   </main>
 
-  <footer class="bg-light text-center py-3">
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
     © 2025 John Alarcón – Desarrollado con GitHub Pages
   </footer>
 
